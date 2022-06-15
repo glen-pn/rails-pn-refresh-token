@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  namespace 'api' do 
+    namespace 'v1' do
+      get 'home/generate_token', to: 'home#generate_token'
+    end
+  end
 end
