@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   namespace 'api' do 
     namespace 'v1' do
-      get 'home/generate_token', to: 'home#generate_token'
+      post 'generatetoken', to: 'home#generate_token'
     end
   end
 end
