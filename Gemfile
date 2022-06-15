@@ -19,6 +19,8 @@ gem "byebug"
 
 gem "pubnub"
 
+gem 'devise_token_auth', git: 'https://github.com/lynndylanhurley/devise_token_auth'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
